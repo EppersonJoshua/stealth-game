@@ -163,7 +163,6 @@ GameObject:
   - component: {fileID: 88508348}
   - component: {fileID: 88508347}
   - component: {fileID: 88508346}
-  - component: {fileID: 88508345}
   - component: {fileID: 88508344}
   m_Layer: 0
   m_Name: Enemy
@@ -187,22 +186,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
---- !u!114 &88508345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 88508343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acc2bbfacddba4f86953a3d9736808d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camMode: 2
-  playerSpeed: 5
-  playerJumpPower: 350
+  m_CollisionDetection: 1
 --- !u!136 &88508346
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -226,7 +210,7 @@ Animation:
   m_GameObject: {fileID: 88508343}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: -203655887218126122, guid: face2488b7a784535a5d88e2743c45c6,
+  m_Animation: {fileID: -203655887218126122, guid: dcc4500804257854fa31d33d4a3be64a,
     type: 3}
   m_Animations:
   - {fileID: -203655887218126122, guid: dcc4500804257854fa31d33d4a3be64a, type: 3}
@@ -1722,7 +1706,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1933975618617654843
 MonoBehaviour:
   m_ObjectHideFlags: 0

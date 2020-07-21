@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
                     cam.fieldOfView = 100;
                     break;
             }
-            if (Input.GetAxis("Horizontal") == 0f && Input.GetAxis("Vertical") == 0f && playerIsJumping == false)
+            if (Input.GetAxis("Horizontal") == 0f && Input.GetAxis("Vertical") == 0f)
             {
                 playerIsMoving = true;
                 GetComponent<Animation>().Play("Happy Idle");
